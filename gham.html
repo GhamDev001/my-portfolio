@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="gham.css">
+</head> 
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" logo="logo">
+
+            <ul id="sidemenu">
+                <li><a href="#Home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact us">contact us</a></li>
+
+                <i class="fa-solid fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm<span> Khalil </span><br> from Nigeria</h1>
+        </div>
+    </div> 
+</div>   
+<!------------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="look.png" width="200">
+            </div>
+            
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>"Hi I'm Khalil Ahmad a creative tech enthusiast specializing in Frontend Development, Graphics Design,
+                    and Video Editing. I build responsive and visually appealing web interfaces using HTML, CSS
+                     and Javscript, while using my design and video skills to create engaging digital experiences.
+
+                     I am deeply driven by a passion to solve real-world problems and help people live healthier
+                     lives. I strongly believe that achieving this requires a bridge between two worlds:
+                     healthcare and computer technology.By understanding both fields we can design smart tools and digital
+                     solution that simplify medical workflows and improve patient care.
+
+                     As a details-oriented learner, I focus on understanding concept deeply from the ground
+                     up. I love combining my technical coding skills with my creative design abilities to build meaningful
+                     projects. let's connect and create something that makes a real difference!" 
+
+                </p>
+             
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Graphics Design</U></span><br>Visual Branding$Typhography<br> UI/UX Design concept</li>
+                        <li><span>Web development</span><br>frontend developer</li>
+                        <li><span>vedio Editing</video></span><br>Vedio continuity$cutting<br> color Granding$Audio Syncing</li>
+                    </ul>
+                </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Graphics Design</span><br>independent Research<br>and practical project</li>
+                        <li><span>web development</span><br>understanding of web<br>Technologies(HTML, CSS, Javascript)<br>
+                        and Visual Design principles.</li>
+                        <li><span>Video Editing</Span><br>institution:Flodiary Academy<br>Focus:professional Video Editing<br>technics, sto
+                        rytelling, and <br>post-production workflows</li>
+                    </ul>
+                </div> 
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Graphics Design</span><br>Freelance Graphics Design<br>social-media and client projects</li>
+                        <li><span>web development</span><br>personal portfolio website:Build,<br>optimized, and successfully<br>
+                        launched a fully responsive portfolio website <br>from scratch using HTML5, CSS3, and javascript</li>
+                        <li><span>video Editing </span><br>Personal and practice project</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------services--------- -->
+<div id="services">
+    <div class="Container">
+        <h1 class="sub-title">My Services</h1>
+         <div class="services-list">
+            
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                  <h2>Graphics design</h2>
+                   <p>I create strinking visual designs, from<br>
+                logos and flyers to modern web<br>
+            layouts. I fucos on clean aesthetics<br>
+            to turn your creative concepts into<br>
+        impactful visuals that strengthen<br> your brand</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Video Editing</h2>
+                      <p> 
+                        " I transform raw footage into<br>
+                        high-quality, engaging videos that<br>
+                        capture audience attention.Through <br>
+                        precise editing, smooth transitions,<br>
+                        and clean sound design, I bring your<br>
+                        visual stories to life."
+                      </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                   <h2>Web development</h2>
+                 <p>
+                    " I build fast, modern, and fully <br>
+                    responsive websites that look great<br>
+                    on any device. I focus on writing<br>
+                    clean frontend code to deliver smooth,<br>
+                    user-freindly Experiences that bring your<br>
+                    digital ideas to life."
+                 </p>
+                    <a href="#">Learn more</a>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!---------------portfolio------------  -->
+<div id="portfolio">
+    <div class="Container">
+         <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="Web development.png">
+                 <div class="layer">
+                <h3>Website development</h3>
+                <p>This portfolio connect you to the talented frontend developer around the world.
+                       upload it from browser.
+                </p>
+            </div>
+            </div>
+
+            <div class="work">
+                <img src="graphics design.png">
+                 <div class="layer">
+                <h3>Graphics design</h3>
+                <p>The portfolio connect you to the talented graphics designers around the world.
+                    upload it from browser.
+                </p>
+            </div>
+            </div>
+            <div class="work">
+                <img src="videos editing.png">
+                 <div class="layer">
+                <h3>Video Editing</h3>
+                <p>The portfolio connect you to the talented video editer around the world.
+                       upload it from browser.
+                </p>
+            </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!------------------contact------------- -->
+    <div id="contact us">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>abdulmalikmasud184@gmail.com</p>
+                    <p>09162799249</p>
+                    <div class="social-media">
+                        <ul>
+                            <a href="https://www.facebook.com/Khalil Ahmad" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                             <a href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a> 
+                             <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                              <a href="https://tictok.com"><i class="fa-brands fa-tictok"></i></a>
+
+                              <a href="https://wa.me/2349035869878"
+                              class="whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i></a>
+                        </ul>
+                    </div>
+                    <a href="ismail.jpg" download class="btn  btn2">Download Cv</a>
+
+                </div>
+                <div class="contact-right">
+                   <form action="https://formsubmit.co/abdulmalikmasud44@gmail.com" method="POST">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit"  class="btn btn2">submit</button>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="name">
+    <h1>
+        Cutt see by Ghamdev001
+    </h1>
+</div>
+</body>
+ <script src="gham.js"></script>
+</html>
